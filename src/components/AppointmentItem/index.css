@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.appointment-list {
+  list-style-type: none;
+  border-radius: 12px;
+  padding: 8px;
+  border: 1px;
+  border-style: solid;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-list {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 32px;
+    min-width: 297px;
+  }
+}
+
+.title-date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+.date {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #b5b7c4;
+}
+
+.liked-image {
+  height: 25px;
+  width: 25px;
+  background: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+.star-btn {
+  background: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
